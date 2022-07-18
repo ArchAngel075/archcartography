@@ -1,0 +1,212 @@
+﻿{
+  "code": "MapPageBlock",
+  "class": "MapPageBlock",
+  "entityClass": "MapPageBlockEntity",
+  "blockmaterial": "wood",
+  "drawtype": "json",
+  "maxstacksize": 1,
+  "resistance": 1.5,
+  "lightabsorption": 0,
+  "ambientocclusion": true,
+  "renderpass": "opaque",
+  "sideopaque": {
+    "all": "false"
+  },
+  "rainPermeable": true,
+  "materialDensity": 600,
+  "behaviors": [
+    { "name": "HorizontalOrientable" },
+    { "name": "Lockable" },
+    { "name": "Unstable" }
+  ],
+  "entityBehavior": [ { "name": "Animatable" } ],
+  "attributes": {
+    "UUID": -1
+  },
+  "textures": {
+    "pages": { "base": "block/books/{color}/pages" },
+    "material": { "base": "block/books/{color}/material" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ]
+  },
+
+  "sidesolid": {
+    "all": "false"
+  },
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 12
+  },
+  "sounds": {
+    "place": "block/planks",
+    "hit": "block/planks",
+    "break": "block/planks",
+    "walk": "walk/wood"
+  },
+  "collisionbox": {
+    "x1": 0,
+    "y1": 0,
+    "z1": 0,
+    "x2": 0.1,
+    "y2": 0.1,
+    "z2": 0.1
+  },
+  "selectionbox": {
+    "x1": 0.8,
+    "y1": 0,
+    "z1": 0.8,
+    "x2": 0.1,
+    "y2": 0.1,
+    "z2": 0.1
+  },
+
+  "selectionboxbytype": {
+    "*-east": {
+      "x1": 0.32,
+      "y1": 0,
+      "z1": 0.21,
+      "x2": 0.71,
+      "y2": 0.13,
+      "z2": 0.79,
+      "rotateY": 270
+    },
+    "*-south": {
+      "x1": 0.32,
+      "y1": 0,
+      "z1": 0.21,
+      "x2": 0.71,
+      "y2": 0.13,
+      "z2": 0.79,
+      "rotateY": 180
+    },
+    "*-west": {
+      "x1": 0.32,
+      "y1": 0,
+      "z1": 0.21,
+      "x2": 0.71,
+      "y2": 0.13,
+      "z2": 0.79,
+      "rotateY": 90
+    },
+    "*-north": {
+      "x1": 0.32,
+      "y1": 0,
+      "z1": 0.21,
+      "x2": 0.71,
+      "y2": 0.13,
+      "z2": 0.79,
+      "rotateY": 0
+    }
+  },
+  "collisionboxbytype": {
+    "*-east": {
+      "x1": 0.32,
+      "y1": 0,
+      "z1": 0.21,
+      "x2": 0.71,
+      "y2": 0.13,
+      "z2": 0.79,
+      "rotateY": 270
+    },
+    "*-south": {
+      "x1": 0.32,
+      "y1": 0,
+      "z1": 0.21,
+      "x2": 0.71,
+      "y2": 0.13,
+      "z2": 0.79,
+      "rotateY": 180
+    },
+    "*-west": {
+      "x1": 0.32,
+      "y1": 0,
+      "z1": 0.21,
+      "x2": 0.71,
+      "y2": 0.13,
+      "z2": 0.79,
+      "rotateY": 90
+    },
+    "*-north": {
+      "x1": 0.32,
+      "y1": 0,
+      "z1": 0.21,
+      "x2": 0.71,
+      "y2": 0.13,
+      "z2": 0.79,
+      "rotateY": 0
+    }
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 5,
+      "z": 0
+    },
+    "rotation": {
+      "x": -53,
+      "y": 38,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 2.46
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.4,
+      "z": 0.4
+    },
+    "rotation": {
+      "x": 90,
+      "y": -43,
+      "z": -124
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 2.6
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.5,
+      "y": 0.4,
+      "z": 0
+    },
+    "rotation": {
+      "x": -102,
+      "y": -86,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 0.67
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 4
+  }
+}

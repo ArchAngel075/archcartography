@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "archcartography",
+  "name": "archcartography",
+  "authors": ["Unknown"],
+  "description": "To be added",
+  "version": "1.0.01L",
+  "dependencies": {
+    "game": ""
+  }
+}

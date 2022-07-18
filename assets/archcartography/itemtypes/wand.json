@@ -1,0 +1,12 @@
+﻿{
+  "code": "Wand",
+  "class": "Wand",
+  "creativeinventory": {
+    "items": [ "*" ]
+  },
+  "texture": {
+    "base": "game:item/wand"
+  },
+  "attributes": { "uuid": -1 },
+ "maxStackSize": 1
+} 
